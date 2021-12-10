@@ -1,0 +1,111 @@
+@import "nav.css";
+body {
+  background: #f0f0f0;
+}
+.container {
+  margin: auto;
+  width: 80%;
+  /* border: 1px solid #000000; */
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.menu li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: left;
+}
+
+.menu li a:hover {
+  background-color: #fdb08c;
+}
+
+.menu-item {
+  height: 40px;
+}
+
+.menu-title {
+  display: block;
+  color: #fff;
+  background-color: #ff8000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.banner {
+  margin-left: 20px;
+}
+
+.banner img {
+  width: 900px;
+  height: 350px;
+}
+
+.special-sale-off {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.sale-off-banner {
+  cursor: pointer;
+}
+
+.sale-off-banner img {
+  display: inline;
+  width: 293px;
+  line-height:18.5714px;
+}
+
+.menu-icon{
+  background-color: #fff;
+  font-size: 13px;
+  line-height: 18.5714px;
+  margin: 15px 0px 0px;
+  padding: 15px 4px;
+  text-align: center;
+  display: flex;
+}
+
+.menu-icon-image{
+  font-size: 13px;
+  height: 60px;
+  text-align: center;
+}
+
+.menu-icon-image img{
+  font-size: 13px;
+  height: 60px;
+  text-align: center;
+  display: inline;
+}
+
+.menu-icon-name{
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 10px 0;
+  text-align: center;
+}
+
+.menu-icon-image-name{
+  width: 200px;
+  cursor: pointer;
+}
